@@ -1,0 +1,57 @@
+# ==========================================
+# Archivos de salida y multimedia (BBB-Scribe)
+# ==========================================
+output/
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.opus
+
+# Binarios pesados (>100MB; se descargan automáticamente si faltan)
+bin/*.exe
+bin/*.dll
+bin/ffmpeg
+bin/ffprobe
+bin/ffplay
+
+# ==========================================
+# Entornos virtuales de Python
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Caches de Python y dependencias
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Modelos Whisper / HuggingFace cacheados
+.cache/
+models/
+
+# ==========================================
+# Editores y Sistema Operativo
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
