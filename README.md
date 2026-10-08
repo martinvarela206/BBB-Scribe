@@ -53,7 +53,7 @@ Si vas a clonar el repositorio o compartir la carpeta con compañeros de estudio
 ### 1. Clonar o descomprimir el proyecto
 Abre una terminal en la carpeta del proyecto:
 ```powershell
-cd BBB-downloader
+cd BBB-Scribe
 ```
 
 ### 2. Crear el entorno virtual de Python

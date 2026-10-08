@@ -86,7 +86,7 @@ def interactive_mode() -> None:
 def build_parser() -> argparse.ArgumentParser:
     """Builds the CLI argument parser."""
     parser = argparse.ArgumentParser(
-        description="BBB-downloader: Descarga grabaciones de BigBlueButton como MP4/MP3."
+        description="BBB-Scribe: Descarga grabaciones de BigBlueButton como MP4/MP3."
     )
     parser.add_argument("url", nargs="?", help="URL de la grabación de BigBlueButton")
     parser.add_argument("-o", "--output-dir", help="Carpeta de destino para los videos", default=None)
